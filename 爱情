@@ -1,0 +1,48 @@
+import time
+
+def introduction():
+    print("这是一个关于爱情的故事，讲述了两个人之间的浪漫情感。")
+    time.sleep(2)
+    print("在一个晴朗的春日午后，John 和 Emma 在公园里相遇了。")
+
+def meet():
+    print("John 看到了 Emma，她的美丽让他心动不已。")
+    time.sleep(2)
+    print("Emma 也被 John 的绅士风度吸引，她的笑容温暖了 John 的心房。")
+    time.sleep(2)
+    print("两人开始聊了起来，发现彼此有着共同的爱好和理想。")
+
+def falling_in_love():
+    print("随着时间的推移，John 和 Emma 开始彼此深深地爱上对方。")
+    time.sleep(2)
+    print("他们一起度过了许多美好的时光，分享彼此的喜怒哀乐。")
+    time.sleep(2)
+    print("每一天都让他们更加确定，彼此就是彼此的唯一。")
+
+def confession():
+    print("在一次浪漫的晚餐之后，John 终于鼓起勇气向 Emma 表白了。")
+    time.sleep(2)
+    print("Emma 感动地流下了眼泪，她也向 John 表达了自己的爱意。")
+    time.sleep(2)
+    print("两人深情拥抱，彼此的心紧紧相连。")
+
+def happy_ending():
+    print("从那天起，John 和 Emma 的爱情更加坚固。")
+    time.sleep(2)
+    print("他们一起经历了生活的风风雨雨，共同创造了属于他们的幸福。")
+    time.sleep(2)
+    print("他们的爱情故事将永远被铭记在彼此的心中，直到永远。")
+
+def main():
+    introduction()
+    time.sleep(2)
+    meet()
+    time.sleep(2)
+    falling_in_love()
+    time.sleep(2)
+    confession()
+    time.sleep(2)
+    happy_ending()
+
+if __name__ == "__main__":
+    main()
